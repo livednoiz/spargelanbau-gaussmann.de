@@ -35,39 +35,6 @@ Willkommen zur Projektübersicht für die neue Website des Hofs **Spargelanbau G
 
 ---
 
-## 📁 Projektstruktur (ohne CMS, Tailwind + optional Vite)
-bash'''
-spargelhof-gaussmann/
-├── public/                     # Statische Assets
-│   ├── images/                # Bilder (Hof, Spargel, Team, etc.)
-│   └── favicon.ico
-│
-├── src/                        # Entwicklungsquellen
-│   ├── assets/                # Fonts, Icons, ggf. JS-Module
-│   │   ├── js/
-│   │   └── styles/
-│   │       └── main.css       # Tailwind-Einstiegspunkt
-│   ├── pages/                 # HTML-Seiten
-│   │   ├── index.html         # Startseite
-│   │   ├── about.html         # Über uns
-│   │   ├── kalender.html      # Saisonkalender
-│   │   ├── kontakt.html       # Kontaktseite
-│   │   └── rechtliches.html   # Impressum & Datenschutz
-│   └── components/            # Wiederverwendbare HTML-Fragmente
-│       ├── header.html
-│       ├── footer.html
-│       └── kalender-card.html
-│
-├── tailwind.config.js         # Tailwind-Konfiguration
-├── postcss.config.js          # Für Tailwind/PostCSS
-├── vite.config.js             # Optional: wenn Vite verwendet wird
-├── package.json               # NPM-Projektdatei
-├── .gitignore
-└── README.md                  # Projektbeschreibung
-'''
-
----
-
 ## 💶 Preis & Leistungsrahmen
 
 **Pauschalpreis:** `800 €`

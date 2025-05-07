@@ -7,21 +7,21 @@ Willkommen zur Projektübersicht für die neue Website des Hofs **Spargelanbau G
 ## 🎯 Projektziele
 
 * 🖌️ Individuelles, modernes Design – weg von WordPress
-* 🚫 Kein CMS nötig – statische, wartungsarme Seite
+* ❌ Kein CMS nötig – statische, wartungsarme Seite
 * 📱 Responsive für Mobilgeräte und Tablets
 * 📅 Integration eines einfachen Saisonkalenders
 * 📬 Kontaktformular mit sicherem Mailversand
-* 🗺️ Anfahrtskarte via externer Dienste (Google Maps o. ä.)
+* 🗘️ Anfahrtskarte via externer Dienste (Google Maps o. ä.)
 
 ---
 
 ## 🛠️ Technologiestack
 
-* 🧩 **HTML5 + Tailwind CSS** für Struktur & Design
+* 🧹 **HTML5 + Tailwind CSS** für Struktur & Design
 * ⚡ **Vanilla JS oder Alpine.js** für einfache Interaktionen
 * 🧪 **Vite** oder **Astro** als optionales Build-Tool
-* 📤 Formularversand via **Formspree**, **PHP-Mailer** oder Plesk-Mail
-* 🔁 Deployment über **Plesk Git-Repos** oder **FTP**
+* 📄 Formularversand via **Formspree**, **PHP-Mailer** oder Plesk-Mail
+* 🔀 Deployment über **Plesk Git-Repos** oder **FTP**
 
 ---
 
@@ -63,6 +63,40 @@ Willkommen zur Projektübersicht für die neue Website des Hofs **Spargelanbau G
 3. 🧭 Seiteninhalt strukturieren & Inhalte einpflegen
 4. ✅ Kontaktformular & Karte einbinden
 5. 📦 Bereitstellung via Plesk
+
+---
+
+## 🗂️ Projektstruktur
+
+```text
+spargelhof-gaussmann/
+├── public/                    # Statische Assets
+│   ├── images/                # Bilder (Hof, Spargel, Team, etc.)
+│   └── favicon.ico
+│
+├── src/                       # Entwicklungsquellen
+│   ├── assets/                # Fonts, Icons, ggf. JS-Module
+│   │   ├── js/
+│   │   └── styles/
+│   │       └── main.css       # Tailwind-Einstiegspunkt
+│   ├── pages/                 # HTML-Seiten
+│   │   ├── index.html         # Startseite
+│   │   ├── about.html         # Über uns
+│   │   ├── kalender.html      # Saisonkalender
+│   │   ├── kontakt.html       # Kontaktseite
+│   │   └── rechtliches.html   # Impressum & Datenschutz
+│   └── components/            # Wiederverwendbare HTML-Fragmente
+│       ├── header.html
+│       ├── footer.html
+│       └── kalender-card.html
+│
+├── tailwind.config.js         # Tailwind-Konfiguration
+├── postcss.config.js          # Für Tailwind/PostCSS
+├── vite.config.js             # Optional: wenn Vite verwendet wird
+├── package.json               # NPM-Projektdatei
+├── .gitignore
+└── README.md                  # Projektbeschreibung
+```
 
 ---
 

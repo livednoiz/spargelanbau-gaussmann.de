@@ -36,7 +36,7 @@ Willkommen zur Projektübersicht für die neue Website des Hofs **Spargelanbau G
 ---
 
 ## 📁 Projektstruktur (ohne CMS, Tailwind + optional Vite)
-
+bash'''
 spargelhof-gaussmann/
 ├── public/                     # Statische Assets
 │   ├── images/                # Bilder (Hof, Spargel, Team, etc.)
@@ -64,6 +64,7 @@ spargelhof-gaussmann/
 ├── package.json               # NPM-Projektdatei
 ├── .gitignore
 └── README.md                  # Projektbeschreibung
+'''
 
 ---
 
